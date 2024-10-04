@@ -62,7 +62,7 @@ def create_users_file():
             writer.writerow(['username', 'password', 'name', 'surname', 'email'])
 
 # Load Groq API key
-GROQ_API_KEY='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'
+GROQ_API_KEY='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'
 client = Groq(api_key=GROQ_API_KEY)
 
 # Set page configuration
